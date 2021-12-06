@@ -1,0 +1,94 @@
+body{
+    background: url(img/calanques.jpg);
+}
+
+header{
+    margin-top: 0;
+    width:100%;
+    height: 100px;
+    background-color:aliceblue; 
+}
+
+#accueil{
+    width: 100%;
+
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+#accueil h1{
+    font-size: 80px;
+    color:#fff;
+    text-transform: uppercase;
+    padding: 130px 0px 80px 0px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+header h1{
+     text-transform: uppercase;
+    font-family: Goudy Stout, sans-serif;
+    font-size: 35px;
+    padding-top: 10px;
+    color: white;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #409ce7;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+
+section{
+    max-width: 1400px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.wrapper{
+    max-width:940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+table{
+    border-collapse:collapse;
+    margin: auto;
+    background-color: rgba(223, 222, 222, 0.8);
+    height: 20em;
+    width: 100%;
+}
+
+tr{
+    height: 20px;
+}
+
+th
+{
+    color:rgb(255, 251, 251);
+    border:1px solid black;
+    background: linear-gradient(rgb(255, 255, 255),rgb(91, 165, 250));
+}
+
+td
+{
+    border:1px solid black;
+    width: 12vw;
+    height: 10px;
+    text-align: center;
+    padding: 1%;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+
+img{
+    display: flex;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+}

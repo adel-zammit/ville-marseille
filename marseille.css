@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+
+body{
+    font-size: 20px;
+    font-family: arial,caligri, cursive;
+    text-align: justify;
+    background-color:#CCC5CF;
+    background:url("img/mars1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3{
+display: flex;
+float: left;
+}
+
+/*header*/
+header{
+    margin-top: 0;
+    width:100%;
+    height: 100px;
+    background-color:aliceblue; 
+}
+
+
+header h1{
+     text-transform: uppercase;
+    font-family: Goudy Stout, sans-serif;
+    font-size: 35px;
+    padding-top: 10px;
+    color: white; 
+}
+
+header form{
+    float: right;
+    padding-top: 8px;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+
+.menu a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+ 
+/*accueil*/
+#accueil{
+    width: 100%;
+    background: url(image/symbole-3.png) center;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+#accueil a{
+    text-decoration: none;
+}
+
+#accueil h1{
+    font-size: 80px;
+    color:#fff;
+    text-transform: uppercase;
+    padding: 150px 0px 80px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.wrapper{
+    width:940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+small{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.col-lg-12{
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-right: 20px;
+    width:100%;
+}
+.col-lg-12 h2{
+     
+    font-size: 30px;
+    font-family: Baskerville Old Face cursive;
+    color: #123;
+    border-bottom:1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    
+
+}
+
+button{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding-left:auto;
+    margin-bottom: 10px; 
+    line-height: 30px;
+
+}
+
+
+/*footer*/
+
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #123;
+    color: #8C8490;
+    margin-top: 100px;
+
+}
+
+
+
+
+.actu{
+background-color: aliceblue;
+height: 450px;
+    color: black;
+    text-align: center;
+    opacity: 0.8;
+}
+
+
+
+.nddlg,.covid,.omrecords{
+    float: left;
+    width: 33.33%; /* three containers (use 25% for four, and 50% for two, etc) */
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+img{
+    border: 3px solid black;
+    
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+img:hover{
+    opacity: 0.4;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+
+.boutonmenuprincipal {
+background-color: #409ce7;
+color: white;
+border: none;
+border-radius: 50%;
+cursor: pointer;
+padding:10px;
+margin-top: -20%;
+font-size: 30px;
+
+}
+
+.boutonmenuprincipal:hover {
+background-color: #fff;
+color: #409ce7;
+}
+
+.dropdown {
+left: 25%;
+display: inline-block;
+margin-top: 4%;
+}
+
+.dropdown-child {
+display: none;
+background-color: #99c3e5;
+min-width: 50px;
+border-radius:1%;
+}
+
+.dropdown-child a {
+color: white;
+padding: 2px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown:hover .dropdown-child {
+display: block;
+}
+
+.git{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
